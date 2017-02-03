@@ -6,16 +6,18 @@ This lite exercise will help you gain practice in using regular expressions. Whi
 
 ### Directions
 
-It's recommended that the student uses https://regex101.com/ when attempting to solve the problem set. Put your fully explained solution in this file. 
+It's recommended that the student uses https://regex101.com/ when attempting to solve the problem set. Put your fully explained solution in this file.
 
 ### Exercises
 
 Provide three regexes that matches `yes yes yes` but not `no no no`
 
-```c#
+
 answer:
 
-```
+1.  (yes yes yes)
+2.  (yes ){2}(yes)
+3.  
 
 Provide a regex that matches valid phone numbers with the forms `678-123-1122` and `(678) 123-1122` while still allowing symbols to be optional. HINT: Research the rules around valid phone numbers.
 
