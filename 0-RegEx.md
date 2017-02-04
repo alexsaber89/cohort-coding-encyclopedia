@@ -21,10 +21,10 @@ answer:
 
 Provide a regex that matches valid phone numbers with the forms `678-123-1122` and `(678) 123-1122` while still allowing symbols to be optional. HINT: Research the rules around valid phone numbers.
 
-```c#
+
 answer:
 
-```
+1.  \({0,1}\d\d\d(\)|-){0,1}\s*\d\d\d\-{0,1}\d\d\d\d$
 
 Provide a regex that matches URLs like `https://regex101.com`, `http://facebook.com` and `https://www.godaddy.com` but not `https://msdn.microsoft.com`. (Trailing `/` should be allowed and optional)
 
