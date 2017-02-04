@@ -17,7 +17,7 @@ answer:
 
 1.  (yes yes yes)
 2.  (yes ){2}(yes)
-3.  
+3.  [y][e][s]\s+[y][e][s]\s+[y][e][s]
 
 Provide a regex that matches valid phone numbers with the forms `678-123-1122` and `(678) 123-1122` while still allowing symbols to be optional. HINT: Research the rules around valid phone numbers.
 
